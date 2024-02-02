@@ -1,0 +1,147 @@
+*{
+    padding: 1px;
+    margin: 1px;
+    box-sizing: border-box;
+}
+.container
+{
+    /*border: 1px solid black;*/
+    display: flex;
+}
+.leftbox
+{
+    background-color: rgb(49, 47, 47);
+    width: 380px;
+}
+.img
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    padding: 50px;
+}
+.rightbox
+{
+    /*background-color: blue;*/
+    width: 100%;
+}
+.name
+{
+    /*border: 1px solid black;*/
+    margin-top: 70px;
+}
+.name h2
+{
+    font-family: 'Nanum Gothic', sans-serif;
+    
+    font-size: 30px;
+
+}
+.name h5
+{
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    
+    font-size: 15px;
+}
+.left-site-box
+{
+    /*border: 2px solid white;*/
+    color: aliceblue;
+    width: 270px;
+    margin-left: 0px;
+}
+.left-site-box>h4
+{
+    border-bottom: 2px solid white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.contact-sup-con
+{
+    
+    font-family: 'Roboto Mono', monospace;
+    /*border: 1px solid white;*/
+    border-right: 10px;
+    display: flex;
+}
+.contact-sup-con.text-con p
+{
+    font-size: 10px;
+}
+.skills-sup-con h5
+{  
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.per-con
+{   /*c*/
+    /*border: 1px solid white;*/
+    height: 10px;
+    margin-top: 10px;
+    background-color:gray;
+
+}
+.per
+{
+    background-color: white;
+    width: 80%;
+    height: 6px;
+}
+.follow-sup-con h5
+{
+    font-size: 20px;
+
+}
+.follow-sup-con p
+{
+    margin-bottom: 10px;
+}
+.right-site-title
+{
+    border-bottom: 2px solid rgb(66, 65, 65);
+    display: flex;
+    margin-top: 25px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-family: 'Diphylleia', serif;
+}
+
+img
+{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    line-height: 10px;
+}
+.rightbox
+{
+    width: 100%;
+    padding: 50px;
+}
+.right-site-title h3
+{
+    line-height: 50px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+.right-site-con .years
+{
+    font-weight: bold;
+    width: 20%;
+}
+.right-site-con
+{
+    font-family:"Roboto",sans-serif ;
+    display: flex;
+    margin-top: 20px;
+    
+}
+.right-site-con .desc .desc-title
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
